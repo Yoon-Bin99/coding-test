@@ -14,8 +14,7 @@ public class Main {
     }
 
     static boolean checkFive(int n){
-        int first = n%10;
-        return first==5; 
+        return n%10==5;
     }
 
     static boolean checkThree(int n){
